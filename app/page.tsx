@@ -72,7 +72,7 @@ const Home: React.FC = () => {
           >
             API Doc
           </a>
-          <a href="#" className="hover:text-gray-300">
+          <a href="/aboutus" className="hover:text-gray-300">
             About Us
           </a>
           <form onSubmit={handleSearch} className="ml-4">

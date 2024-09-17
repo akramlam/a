@@ -74,7 +74,7 @@ const VulnerabilityDatabases = () => {
         {/* Navigation Bar */}
         <nav className="flex items-center space-x-4">
           <a href="http://localhost:3002/api-docs#/" className="hover:text-gray-400">API Doc</a>
-          <a href="#" className="hover:text-gray-400">About Us</a>
+          <a href="/aboutus" className="hover:text-gray-400">About Us</a>
 
           {/* Search Bar */}
           <form onSubmit={handleSearch} className="flex items-center">
